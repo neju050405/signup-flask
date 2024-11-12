@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+<div class="block">
+    {% block content %}
+        {% for item in items %}
+            <p>user: {{item.name}} | email: {{item.email}}</p>
+        {% endfor %}
+    {% endblock %}
+</div>

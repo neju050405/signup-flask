@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+<div class="block">
+    <img src="{{url_for('static', filename='img/icon.png')}}" class="icon" />
+    <p>User: {{user}}</p>
+    <p>Email: {{email}}</p>
+    <img src="{{url_for('static', filename='img/logout.png')}}" id="lob" />
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="{{url_for('static', filename='scripts/profile.js')}}"></script>
+{% endblock %}

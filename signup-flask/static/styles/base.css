@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: gray;
+    border-radius: 5px;
+    width: 30%;
+    height: 350px;
+}
+
+.block h {
+    position: relative;
+    bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+
+}
+
+.icon {
+    width: 100px;
+}
+
+#lob {
+    width:25px;
+    padding: 3px;
+    border-radius: 14px;
+}
+
+#lob:hover {
+    background-color: azure;
+}

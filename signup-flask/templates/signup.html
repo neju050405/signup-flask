@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div class="block">
+    <form action="#" method="POST">
+        <h>Sign Up</h>
+        <p><input type="text" placeholder="user" name="user" /></p>
+        <p><input type="email" placeholder="email" name="email" /></p>
+        <p><input type="password" placeholder="password" name="password" /></p>
+        <p><input type="submit" /></p>
+        <a class="nav-link" aria-disabled="true" href="{{ url_for('login') }}">Login</a>
+    </form>
+</div>
+
+{% endblock %}
